@@ -20,9 +20,9 @@ export class ExampleController {
     return this.exampleService.create(createExampleDto);
   }
 
-  @Get()
+  @Get('/testt')
   findAll() {
-    return this.exampleService.findAll();
+    return 'success';
   }
 
   @Get(':id')
