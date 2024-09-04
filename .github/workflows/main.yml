@@ -40,6 +40,7 @@ jobs:
 
             # Lấy ID của container từ image
             CONTAINER_ID=$(docker ps -q --filter "ancestor=$IMAGE_NAME")
+            echo "CONTAINER ID : $CONTAINER_ID"
             if [ -n "$CONTAINER_ID" ]; then
               docker stop $CONTAINER_ID
               docker rm $CONTAINER_ID 
