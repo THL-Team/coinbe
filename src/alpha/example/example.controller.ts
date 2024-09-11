@@ -117,7 +117,11 @@ export class ExampleController {
       // const browser = await puppeteer.launch({
       //   executablePath: '/usr/bin/chromium-browser',
       // });
-      let browser = await puppeteer.launch();
+      let browser = await puppeteer.launch({
+        headless:false,
+    args: ["--no-sandbox"]
+
+      });
 
       const page = await browser.newPage();
 
