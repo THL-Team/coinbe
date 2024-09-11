@@ -111,7 +111,7 @@ export class ExampleController {
           return textThanks;
       }
     };
-    console.log('content()', content());
+    console.log('content(d)', content());
 
     try {
       // const browser = await puppeteer.launch({
