@@ -114,13 +114,10 @@ export class ExampleController {
     console.log('content()', content());
 
     try {
-      const browser = await puppeteer.launch({
-        executablePath: '/usr/bin/chromium-browser',
-
-        // headless: true,
-        // executablePath: `/usr/bin/google-chrome`,
-        // args: [`--no-sandbox`, `--headless`, `--disable-gpu`, `--disable-dev-shm-usage`],
-      });
+      // const browser = await puppeteer.launch({
+      //   executablePath: '/usr/bin/chromium-browser',
+      // });
+      let browser = await puppeteer.launch();
 
       const page = await browser.newPage();
 
