@@ -115,6 +115,8 @@ export class ExampleController {
 
     try {
       const browser = await puppeteer.launch({
+        executablePath: '/usr/bin/chromium-browser',
+
         // headless: true,
         // executablePath: `/usr/bin/google-chrome`,
         // args: [`--no-sandbox`, `--headless`, `--disable-gpu`, `--disable-dev-shm-usage`],
