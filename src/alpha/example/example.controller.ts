@@ -15,7 +15,7 @@ import puppeteer from 'puppeteer';
 
 @Controller('example')
 export class ExampleController {
-  constructor(private readonly exampleService: ExampleService) {}
+  constructor(private readonly exampleServicessss: ExampleService) {}
 
   @Post()
   create(@Body() createExampleDto: CreateExampleDto) {
