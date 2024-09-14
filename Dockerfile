@@ -8,7 +8,7 @@ WORKDIR /app
 # Define arguments
 # Set environment variable
 ENV PROJECT=nest-docker-vps-cicd
-ENV PORT_PROGRAM=8888
+ENV PORT_PROGRAM=8889
 # Install app dependencies
 COPY . .
 RUN npm install --force

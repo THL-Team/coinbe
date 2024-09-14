@@ -5,6 +5,6 @@ services:
     image: nest-docker-vps-cicd
     container_name: nest-docker-vps-cicd
     expose:
-      - 8888
+      - 8889
     ports:
-      - 8888:8888
+      - 8889:8889
