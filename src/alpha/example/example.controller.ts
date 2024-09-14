@@ -6,9 +6,6 @@ import {
   Patch,
   Param,
   Delete,
-  Query,
-  Res,
-  InternalServerErrorException,
 } from '@nestjs/common';
 import { ExampleService } from '@src/alpha/example/example.service';
 import { CreateExampleDto } from '@src/alpha/example/dto/create-example.dto';
@@ -22,7 +19,7 @@ export class ExampleController {
 
   @Post()
   create(@Body() createExampleDto: CreateExampleDto) {
-    return this.exampleService.create(createExampleDto);
+    return this.exampleService.create(creasteExampleDto);
   }
 
   @Get('/testt')
