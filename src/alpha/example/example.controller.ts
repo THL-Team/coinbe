@@ -19,7 +19,7 @@ export class ExampleController {
 
   @Post()
   create(@Body() createExampleDto: CreateExampleDto) {
-    return this.exampleService.create(creasteExampleDto);
+    return this.exampleService.create(createExampleDto);
   }
 
   @Get('/testt')
