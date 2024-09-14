@@ -27,7 +27,7 @@ export class ExampleController {
 
   @Get('/testt')
   async convertToBase64() {
-    return 'ok test success';
+    return 'oke 🙌🏻 test success';
   }
 
   @Get(':id')
