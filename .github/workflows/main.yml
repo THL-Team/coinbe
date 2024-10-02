@@ -16,7 +16,7 @@ jobs:
           if [ ! -d "$WORKSPACE/$PROJECT_NAME" ]; then
             mkdir -p "$WORKSPACE/$PROJECT_NAME"
             cd "$WORKSPACE"
-            git clone https://${{ secrets.GH_TOKEN }}@github.com/trungthanh12081997/$PROJECT_NAME.git
+            git clone https://${{ secrets.GH_TOKEN }}@github.com/THL-Team/$PROJECT_NAME.git
           else
             echo "Directory already exists: $WORKSPACE/$PROJECT_NAME"
           fi
