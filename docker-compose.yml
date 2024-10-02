@@ -5,6 +5,6 @@ services:
     image: coinbe
     container_name: coinbe
     expose:
-      - 8889
+      - 8887
     ports:
-      - 8889:8889
+      - 8887:8887

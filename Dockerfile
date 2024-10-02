@@ -8,7 +8,7 @@ WORKDIR /app
 # Define arguments
 # Set environment variable
 ENV PROJECT=coinbe
-ENV PORT_PROGRAM=8889
+ENV PORT_PROGRAM=8887
 # Install app dependencies
 COPY . .
 RUN npm install --force
