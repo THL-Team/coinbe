@@ -10,8 +10,6 @@ import {
 import { ExampleService } from '@src/alpha/example/example.service';
 import { CreateExampleDto } from '@src/alpha/example/dto/create-example.dto';
 import { UpdateExampleDto } from '@src/alpha/example/dto/update-example.dto';
-import { Response } from 'express';
-import puppeteer from 'puppeteer';
 
 @Controller('example')
 export class ExampleController {

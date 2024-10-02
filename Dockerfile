@@ -7,7 +7,7 @@ WORKDIR /app
 
 # Define arguments
 # Set environment variable
-ENV PROJECT=nest-docker-vps-cicd
+ENV PROJECT=coinbe
 ENV PORT_PROGRAM=8889
 # Install app dependencies
 COPY . .

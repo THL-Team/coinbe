@@ -5,7 +5,7 @@ on:
       - main
 env:
   WORKSPACE: /home/backend
-  PROJECT_NAME: nest-docker-vps-cicd
+  PROJECT_NAME: coinbe
 jobs:
   test-build:
     name: Test Build
@@ -58,7 +58,7 @@ jobs:
         shell: bash
         env:
           WORKSPACE: /home/backend
-          PROJECT_NAME: nest-docker-vps-cicd
+          PROJECT_NAME: coinbe
 
       - name: Deploy
         run: |
